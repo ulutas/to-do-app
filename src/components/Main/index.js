@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Header from "../Header";
-import Footer from "../Footer";
 
 function Main() {
   const [toDo, settoDo] = useState([
@@ -57,7 +56,6 @@ function Main() {
           ))}
         </ul>
       </section>
-      <Footer />
     </div>
   );
 }
